@@ -1,0 +1,20 @@
+{
+    "name": "CustomAtributeEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:023dc96df35050c4abfb3b7bfbaf73d8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [
+        
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

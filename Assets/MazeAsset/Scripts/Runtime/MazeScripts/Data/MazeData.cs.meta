@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9c2b25d6a2e041b419c327f631998d17
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Runtime/MazeScripts/Data/MazeData.cs
+  uploadId: 733588

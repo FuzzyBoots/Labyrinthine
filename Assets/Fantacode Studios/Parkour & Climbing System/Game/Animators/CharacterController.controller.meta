@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9fe77c5995460d48adab041494655af
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 258182
+  packageName: FS Parkour And Climbing System
+  packageVersion: 1.9.2
+  assetPath: Assets/Fantacode Studios/Parkour & Climbing System/Game/Animators/CharacterController.controller
+  uploadId: 721831

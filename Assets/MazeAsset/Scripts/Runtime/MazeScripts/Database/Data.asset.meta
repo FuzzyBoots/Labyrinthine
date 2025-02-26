@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 737e6a7e809c1124ea77c3ad270c8a14
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Runtime/MazeScripts/Database/Data.asset
+  uploadId: 733588

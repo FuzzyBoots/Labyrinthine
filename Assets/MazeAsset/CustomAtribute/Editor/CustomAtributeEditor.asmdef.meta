@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68196cb4ba5d4ce45a03208035a684ea
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/CustomAtribute/Editor/CustomAtributeEditor.asmdef
+  uploadId: 733588

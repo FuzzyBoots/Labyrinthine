@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 87630776c7ca0834888817d1fad5c96f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Runtime/MazeScripts/CheckerSolvable/SquareMazeSolver.cs
+  uploadId: 733588

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dbb7f2d5af32f13498f7120a828343eb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Runtime/MazeScripts/Elevator/AnimatorElevatorService.cs
+  uploadId: 733588

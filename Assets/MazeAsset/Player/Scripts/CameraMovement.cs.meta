@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b0d66292c4b713c4fb6dad1d81218c37
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Player/Scripts/CameraMovement.cs
+  uploadId: 733588

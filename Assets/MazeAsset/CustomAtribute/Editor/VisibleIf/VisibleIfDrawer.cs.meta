@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: abb6b18b34dbaf84691b35d097b76d28
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/CustomAtribute/Editor/VisibleIf/VisibleIfDrawer.cs
+  uploadId: 733588

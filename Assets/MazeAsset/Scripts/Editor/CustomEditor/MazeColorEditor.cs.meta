@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2e095fa444a9427438a477437de10355
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Editor/CustomEditor/MazeColorEditor.cs
+  uploadId: 733588

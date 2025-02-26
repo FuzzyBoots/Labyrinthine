@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 46e1380f77fe8eb4b80a1f7497dbb06a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Maze/MazeInstantiation/MazeInstantiator.cs
+  uploadId: 688015

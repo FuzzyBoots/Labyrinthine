@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b970759b707e65f4bb47a35d1dfa3bdc
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scenes/Example.unity
+  uploadId: 733588

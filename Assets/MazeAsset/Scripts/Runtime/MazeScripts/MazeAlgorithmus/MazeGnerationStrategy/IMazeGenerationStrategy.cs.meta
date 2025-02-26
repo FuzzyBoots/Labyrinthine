@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7c4cbdff044c9fa48a8e059fcc0e4f18
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Runtime/MazeScripts/MazeAlgorithmus/MazeGnerationStrategy/IMazeGenerationStrategy.cs
+  uploadId: 733588

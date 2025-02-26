@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f014d2aa704940641b66bd2b6fde16ca
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Runtime/MazeGenerator.asmdef
+  uploadId: 733588

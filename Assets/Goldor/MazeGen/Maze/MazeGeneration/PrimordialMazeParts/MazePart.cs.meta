@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 17a3f0dd3e052da4c9afea27927d7bec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Maze/MazeGeneration/PrimordialMazeParts/MazePart.cs
+  uploadId: 688015

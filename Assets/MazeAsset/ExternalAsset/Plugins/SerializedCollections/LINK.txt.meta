@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8d760c3ca29687542aa8cc42868ed232
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/ExternalAsset/Plugins/SerializedCollections/LINK.txt
+  uploadId: 733588

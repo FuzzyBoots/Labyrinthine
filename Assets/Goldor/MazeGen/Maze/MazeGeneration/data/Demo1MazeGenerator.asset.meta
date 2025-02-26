@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64402b1284562e841a5a50593022018a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Maze/MazeGeneration/data/Demo1MazeGenerator.asset
+  uploadId: 688015

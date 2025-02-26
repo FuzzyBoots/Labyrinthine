@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 35332beed1e30094296e4d6fa96f4c13
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Runtime/MazeScripts/MazeAlgorithmus/RemovalWalls/AlgorithmusForSquare.cs
+  uploadId: 733588

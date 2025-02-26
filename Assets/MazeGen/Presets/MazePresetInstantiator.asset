@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e1380f77fe8eb4b80a1f7497dbb06a, type: 3}
+  m_Name: MazePresetInstantiator
+  m_EditorClassIdentifier: 
+  forwardPath: {fileID: 5943821043155989979, guid: 5a04441ebdfe2ee45ac124b24033c974, type: 3}
+  cornerRightPath: {fileID: 5943821043155989979, guid: 44b145a6bdb93274dad97dd8023bd258, type: 3}
+  cornerLeftPath: {fileID: 5943821043155989979, guid: 96be8a16c7ecfd248b6c6ecfde191fe9, type: 3}
+  splitPath: {fileID: 5943821043155989979, guid: 65ba006326fd4f84a9f0b792545dd01a, type: 3}
+  crossPath: {fileID: 5943821043155989979, guid: 79c976d87eb8b9346bbbe7fa87023e0d, type: 3}
+  endPath: {fileID: 5943821043155989979, guid: 9b1cc78da475ffe48a08e144bc413b6c, type: 3}
+  mazeEnd: {fileID: 5943821043155989979, guid: 25f94a8a92b02914ca673417fe8c82cc, type: 3}
+  size: 5
+  groupResolution: 10

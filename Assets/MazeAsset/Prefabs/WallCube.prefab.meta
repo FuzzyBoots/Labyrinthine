@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9a2071c6ada69c443a5a16f6cf9574ac
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Prefabs/WallCube.prefab
+  uploadId: 733588

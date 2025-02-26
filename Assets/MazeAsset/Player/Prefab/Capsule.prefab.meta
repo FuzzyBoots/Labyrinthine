@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ac6bd3bae9e56d04cbdc7ca6c4c952ef
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Player/Prefab/Capsule.prefab
+  uploadId: 733588

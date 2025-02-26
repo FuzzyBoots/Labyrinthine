@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c2fc09d8db05f3499e8e06ab6ac1bac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Art/Material/MazeMaterial 1.mat
+  uploadId: 733588

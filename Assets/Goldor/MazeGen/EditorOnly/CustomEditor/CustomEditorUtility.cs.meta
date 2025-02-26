@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dbce0732e2a0da04a877e69c508f2709
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/EditorOnly/CustomEditor/CustomEditorUtility.cs
+  uploadId: 688015

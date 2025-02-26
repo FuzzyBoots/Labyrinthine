@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1115e2364448a80428bd2086bc2f68ee
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Scripts/Runtime/MazeScripts/Database/savedDataAfterClose.json
+  uploadId: 733588

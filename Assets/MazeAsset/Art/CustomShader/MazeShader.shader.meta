@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b972703a49a234042bbb29e0a7c5f920
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/Art/CustomShader/MazeShader.shader
+  uploadId: 733588

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: df6c2ef835e40c94c976442569324029
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 12385, guid: 0000000000000000e000000000000000, type: 0}
+  disableValidation: 0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310858
+  packageName: Maze Generator V
+  packageVersion: 1.0.1
+  assetPath: Assets/MazeAsset/ExternalAsset/Plugins/SerializedCollections/Editor/Assets/KeysGeneratorSelectorWindow.uss
+  uploadId: 733588

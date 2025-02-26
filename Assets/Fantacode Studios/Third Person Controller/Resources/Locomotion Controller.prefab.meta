@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc6b3d098c8f9e443b85cde58beef7d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 258182
+  packageName: FS Parkour And Climbing System
+  packageVersion: 1.9.2
+  assetPath: Assets/Fantacode Studios/Third Person Controller/Resources/Locomotion
+    Controller.prefab
+  uploadId: 721831

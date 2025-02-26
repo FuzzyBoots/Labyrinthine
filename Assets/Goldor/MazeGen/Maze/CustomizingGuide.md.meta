@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c4c8ab7d87b1d124e975c8d05fcda508
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226572
+  packageName: MazeGen
+  packageVersion: 1.0.0
+  assetPath: Assets/Goldor/MazeGen/Maze/CustomizingGuide.md
+  uploadId: 688015
