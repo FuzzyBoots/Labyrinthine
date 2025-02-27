@@ -42,6 +42,7 @@ namespace MazeGen
         /// <param name="bakedMeshes">Put mesh that have been baked in the list (it need to be destroy manually when deleting the maze to avoid memory leak)</param>
         public void InstantiateMaze(MazeContainer maze, MazeRegistry registry, Transform rootObject, bool bakeImmediate, [CanBeNull] List<MeshFilter> bakedMeshes)
         {
+            Debug.Log("Entered Instantiation");
             UpdateRegex(registry);
             DateTime startTime = DateTime.Now;
             Debug.Log("Starting maze instantiation at : " + startTime);
