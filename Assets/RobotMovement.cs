@@ -53,6 +53,7 @@ public class RobotMovement : MonoBehaviour
             default:
                 Debug.Log("Somehow entered bad movement state.");
                 _state = MovementStates.Roaming;
+                break;
         }
     }
 

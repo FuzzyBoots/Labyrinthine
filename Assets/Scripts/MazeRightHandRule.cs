@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class MazeRightHandRule : MonoBehaviour
 {
-    public CharacterController controller;
-    public float moveSpeed = 5f;
-    public float rotationSpeed = 90f; // Degrees per second
-    public float cellWidth = 5f; // Width of each maze cell
-    public LayerMask wallLayer; // Layer containing maze walls
+	[SerializeField] private CharacterController controller;
+	[SerializeField] private float moveSpeed = 5f;
+	[SerializeField] private float rotationSpeed = 90f; // Degrees per second
+	[SerializeField] private float cellWidth = 5f; // Width of each maze cell
+	[SerializeField] private LayerMask wallLayer; // Layer containing maze walls
 
     private Vector3 currentDirection = Vector3.forward;
     private float targetRotation = 0f;
     private bool isRotating = false;
+
+    float _canTurn = 0f;
+    [SerializeField] private float _timeToTurn = 1f;
 
     void Update()
     {
@@ -26,22 +29,12 @@ public class MazeRightHandRule : MonoBehaviour
 
     void MoveCharacter()
     {
-        if (CanMoveForward())
-        {
-            Vector3 moveDirection = currentDirection * moveSpeed * Time.deltaTime;
-            controller.Move(moveDirection);
-        }
-        else
-        {
-            Debug.Log("Bonk");
+        Vector3 moveDirection = currentDirection * moveSpeed * Time.deltaTime;
+        CollisionFlags collisionFlags = controller.Move(moveDirection);
+
+        if (collisionFlags == CollisionFlags.Sides) { 
             TurnLeft();
         }
-    }
-
-    bool CanMoveForward()
-    {
-        Vector3 checkPosition = transform.position + currentDirection * (cellWidth / 2f + 0.1f); // Add a small offset
-        return !Physics.CheckBox(checkPosition, new Vector3(cellWidth / 2f, 1f, cellWidth / 2f), transform.rotation, wallLayer);
     }
 
     void TurnRight()
@@ -64,7 +57,8 @@ public class MazeRightHandRule : MonoBehaviour
         if (Mathf.Approximately(angle, targetRotation))
         {
             isRotating = false;
-            currentDirection = Quaternion.Euler(0f, targetRotation - transform.eulerAngles.y, 0f) * currentDirection;
+            _canTurn = Time.time + _timeToTurn;
+            currentDirection = transform.forward;
             currentDirection.Normalize();
         }
     }
@@ -83,9 +77,9 @@ public class MazeRightHandRule : MonoBehaviour
         Vector3 checkPosition = transform.position + rightDirection * (cellWidth / 2f + 0.1f);
 
         Debug.Log(checkPosition);
-        Debug.DrawRay(checkPosition, rightDirection * cellWidth, Color.yellow);
 
-        if (!Physics.CheckBox(checkPosition, new Vector3(cellWidth / 2f, 1f, cellWidth / 2f), transform.rotation, wallLayer))
+        if (!Physics.CheckBox(checkPosition, new Vector3(cellWidth / 2f, 1f, cellWidth / 2f), transform.rotation, wallLayer) 
+            && Time.time > _canTurn)
         {
             TurnRight();
         }
@@ -95,8 +89,12 @@ public class MazeRightHandRule : MonoBehaviour
 	{
 		if (Application.isPlaying) // Only draw gizmos while playing
 		{
-			// Debug visualization (draw the forward check box)
-			Vector3 forwardCheckPosition = transform.position + currentDirection * (cellWidth / 2f + 0.1f);
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawRay(transform.position, transform.forward * 5);
+            Gizmos.color = Color.green;
+            Gizmos.DrawRay(transform.position, currentDirection * 5);
+            // Debug visualization (draw the forward check box)
+            Vector3 forwardCheckPosition = transform.position + currentDirection * (cellWidth / 2f + 0.1f);
 			Gizmos.color = Color.red;
 			Gizmos.DrawWireCube(forwardCheckPosition, new Vector3(cellWidth, 2f, cellWidth));
 
