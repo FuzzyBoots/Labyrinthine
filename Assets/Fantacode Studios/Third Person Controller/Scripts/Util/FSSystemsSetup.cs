@@ -182,11 +182,11 @@ namespace FS_ThirdPerson
                 }
                 tagManager.ApplyModifiedProperties();
 
-                foreach (var tag in systemProjectSettingsData.systemProjectSettings.tags)
-                {
-                    if (!InternalEditorUtility.tags.ToList().Contains(tag))
-                        InternalEditorUtility.AddTag(tag);
-                }
+                //foreach (var tag in systemProjectSettingsData.systemProjectSettings.tags)
+                //{
+                //    if (!InternalEditorUtility.tags.ToList().Contains(tag))
+                //        InternalEditorUtility.AddTag(tag);
+                //}
 
                 systemProjectSettingsData.systemProjectSettings.extraSetupAction?.Invoke();
             }

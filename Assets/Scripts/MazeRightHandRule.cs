@@ -59,7 +59,6 @@ public class MazeRightHandRule : MonoBehaviour
             isRotating = false;
             _canTurn = Time.time + _timeToTurn;
             currentDirection = transform.forward;
-            currentDirection.Normalize();
         }
     }
 
@@ -75,8 +74,6 @@ public class MazeRightHandRule : MonoBehaviour
     {
         Vector3 rightDirection = Quaternion.Euler(0f, 90f, 0f) * currentDirection;
         Vector3 checkPosition = transform.position + rightDirection * (cellWidth / 2f + 0.1f);
-
-        Debug.Log(checkPosition);
 
         if (!Physics.CheckBox(checkPosition, new Vector3(cellWidth / 2f, 1f, cellWidth / 2f), transform.rotation, wallLayer) 
             && Time.time > _canTurn)
@@ -105,4 +102,12 @@ public class MazeRightHandRule : MonoBehaviour
 			Gizmos.DrawWireCube(rightCheckPosition, new Vector3(cellWidth, 2f, cellWidth));
 		}
 	}
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if ( hit.gameObject.CompareTag("Player"))
+        {
+            GameManager.Instance.LoseCondition();
+        }        
+    }
 }
